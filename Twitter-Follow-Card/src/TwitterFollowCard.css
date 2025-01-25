@@ -1,0 +1,69 @@
+/* Styles for Twitter Follow Card */
+
+/* GENERAL */
+.tw-follow-card-article {
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+}
+
+/* INFO */
+.tw-follow-card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tw-follow-card-img {
+    width: 60px;
+    height: auto;
+}
+
+.tw-follow-card-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.tw-follow-card-span {
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tw-follow-card-strong {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ASIDE */
+.tw-follow-card-aside {
+    align-items: center;
+    padding-left: 50px;
+}
+.tw-follow-card-button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 10px 15px 10px 15px;
+    border: 0px;
+    border-radius: 25px;
+}
+.tw-follow-card-button:hover {
+    background: lightgrey;
+    transition: 0.3s;
+}
+.tw-follow-card-button-following {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #222;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+}
+.tw-follow-card-button-following:hover {
+    border: 1px solid red;
+    color: red;
+    transition: 0.2s;
+}
