@@ -9,6 +9,3 @@ Este repositorio contiene código para recrear componentes de aplicaciones popul
 
 ## Qué tecnologia? 💻
 La mayoría de repositorios son y serán hechos con React!
-
-# VIEW
-![Twitter follow card](./Twitter-Follow-Card/TwitterFollowCard.png)
